@@ -28,6 +28,8 @@ h1 {
   text-shadow: 0px 0px 10px white;
 }
 .choices {
+  display: flex;
+  flex-direction: row;
   margin-bottom: 30px;
 }
 .opt {

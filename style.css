@@ -1,0 +1,75 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(
+    to right,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+}
+
+h1 {
+  font-size: 3.5em;
+  color: white;
+  text-shadow: 0px 0px 10px white;
+}
+.choices {
+  margin-bottom: 30px;
+}
+.opt {
+  justify-content: center;
+  text-align: center;
+  min-width: 200px;
+  font-size: 4em;
+  padding: 50px;
+  border-radius: 50%;
+  margin: 25px;
+  box-shadow: 0px 0px 10px white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+.opt:hover {
+  background-color: hsla(64, 100%, 64%, 0.747);
+}
+
+#playerDisplay,
+#computerDisplay {
+  font-size: 2.5em;
+  color: white;
+  text-shadow: 0px 0px 5px white;
+}
+
+.resultDisplay {
+  color: white;
+  text-shadow: 0px 0px 5px white;
+  font-size: 5em;
+  margin: 30px;
+}
+
+.greenText {
+  color: greenyellow;
+  text-shadow: 0px 0px 5px greenyellow;
+  font-size: 5em;
+  margin: 30px;
+}
+.redText {
+  color: red;
+  text-shadow: 0px 0px 5px red;
+  font-size: 5em;
+  margin: 30px;
+}
